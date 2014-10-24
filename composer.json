@@ -1,0 +1,22 @@
+{
+    "name": "amsterdamstandard/tokenizer",
+    "type": "library",
+    "license": "MIT",
+    "description": "Tokenizer api wrapper for PHP",
+    "authors": [
+        {
+            "name": "Frank Broersen",
+            "email": "frank@amsterdamstandard.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "AmsterdamStandard\\": "src/"
+        }
+    }
+}
