@@ -3,7 +3,7 @@
 ## What is this repository for? ###
 
 * Getting started with Tokenizer and PHP
-* 1.0
+* 1.1
 
 ## Pre-requisits ###
 
