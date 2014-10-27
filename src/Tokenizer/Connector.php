@@ -12,8 +12,6 @@
 
 namespace AmsterdamStandard\Tokenizer;
 
-use Response;
-
 class Connector {
 
     /**

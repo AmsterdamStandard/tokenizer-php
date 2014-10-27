@@ -14,7 +14,7 @@ include 'config.php';
 
 try {
     
-    $id = isset($_GET['id']) ? $_GET['id'] : false;
+    $id = filter_input(INPUT_GET, 'id', FILTER_VALIDATE_INT);
     if(!$id) {
         throw new AmsterdamStandard\Tokenizer\Exception("No url id found");
     }
